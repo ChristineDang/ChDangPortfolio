@@ -1,0 +1,155 @@
+body {
+    background-image: url("../images/subtle_white_feathers.png");   
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+h1 {
+    background: #439692;
+    position: absolute;
+    padding: 40px;
+    text-align: left;
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 400px;
+}
+.topnav {
+    background: white;
+    position: absolute right;
+    padding: 40px;
+    text-align: right;
+    word-spacing: 30px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-width: 5px;
+}
+
+.content {
+    width:960px;
+    line-height: 1.8;
+    margin: 0 auto 0 auto;
+    padding: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    text-align: auto;
+
+}
+
+ /* Non-Bootstrap version
+    .card {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    padding: 20px;
+    margin: 0px;
+    z-index: 1;
+} 
+
+ .card-label {
+    clear: both;
+    width: 447px; 
+    column-width: initial;
+    background-color: #439692;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    z-index: 2;
+} */
+
+.card-text {
+    width: inherit;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-color: #439692;
+    border: 0;
+    text-align: center;
+    color: white;
+    padding: 7px;
+}
+
+
+h2 {
+    color: #439692;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Fit 100% within any size screen, but after refresh without changing any code, it changed back  */
+.container {
+    color: black;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+}
+
+
+#hangman {
+    width: inherit;
+}
+
+#RPGGame {
+    width: inherit;
+}
+
+#triviagame {
+    width: inherit;
+}
+
+#infowidget {
+    width: inherit;
+}
+
+#rockpaperscissors {
+    width: inherit;
+
+}
+
+.backfooter {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+
+
+    background-color: #439692;
+    position: relative;
+    z-index: 1;
+    min-width:auto;
+    max-width: auto;
+    height:70px;
+    top:-0px;
+    left: 0;
+}
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+
+
+    background-color: rgb(86, 86, 86);
+    position: relative;
+    z-index: 2;
+    min-width:auto;
+    max-width: auto;
+    height: auto;
+    top: -60px;
+    left: 0;
+
+    color: white;
+    text-align: center;
+}
+
+img {
+    pointer-events: none;
+}

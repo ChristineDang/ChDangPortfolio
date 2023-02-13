@@ -1,0 +1,217 @@
+body {
+    /* background-image: url("../images/subtle_white_feathers.png"); */
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-color: rgb(247, 247, 247);
+}
+
+h1 {
+    background: #202020;
+    position: absolute;
+    padding: 40px;
+    text-align: center;
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 400px;
+
+}
+
+.topnav {
+    background: white;
+    position: absolute right;
+    padding: 40px;
+    text-align: right;
+    word-spacing: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-width: 5px;
+
+}
+
+h2 {
+    color: #202020;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profilepic {
+    clear: both;
+    display: block;
+    align-content: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width:200px; 
+    height:275px; 
+    float: left;
+
+}
+#content {
+    max-width: 1000px;
+    min-width: auto;
+    line-height: 1.8;
+    margin:  auto auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* color: black;
+    border-style: solid; */
+    /* border-color: white;
+    background-color: white; */
+    text-align: auto;
+
+}
+
+.title {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+#lists {
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pdf {
+    float: left;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+/* .lottie {
+padding-left: 32%;
+padding-right: 20%;
+} */
+
+/* #plant {
+    padding-top: 5%;
+} */
+
+/* #fact {
+    border: #202020;
+    border-style: double;
+    padding: 1%;
+} */
+
+#resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 105%;
+}
+
+body {
+    padding-top: 60px;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+
+
+  #contentTable {
+      padding-left: 10%;
+      width: 24%;
+      float: left;
+      /* position: fixed;
+      margin-right: 5px;
+      min-height: 50px;
+      overflow: auto; */
+/* 
+    background-color: #f1f1f1;
+    position: sticky; */
+
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+  }
+
+  #projects {
+    min-height: 1000px;
+    /* margin-right: 5px; */
+    overflow: auto;
+    position: absolute;
+    left: 28.5%;
+
+
+    gap: 2rem;
+  }
+
+  .appTitles {
+      text-align: center;
+  }
+
+  #spacing {
+      padding-bottom: 500px;
+  }
+
+  .responsive {
+      width: 100%;
+      height: auto;
+  }
+
+  #padding{
+      padding-bottom: 35%;
+  }
+
+  #links {
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      align-self: center;
+      display:inline-block;
+  }
+
+  .bkgrndImg {
+    background-image: url("../images/whitepattern.jpg");
+    background-color: rgb(124, 124, 124);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+
+  form {
+      float: left;
+      /* padding: 2%; */
+      align-content: center;
+
+  }
+
+  input {
+    background-color: rgb(110, 202, 255);
+    border-radius: 25px;
+    border-color: rgb(110, 202, 255);
+    /* color: white; */
+  }
+
+  img {
+    pointer-events: none;
+}

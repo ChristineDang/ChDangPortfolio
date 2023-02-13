@@ -1,2 +1,3 @@
-# ChDangPortfolio
-UXUI and Web Dev Portfolio
+# Bootstrap-Portfolio
+
+https://christinedang.github.io/Bootstrap-Portfolio/
