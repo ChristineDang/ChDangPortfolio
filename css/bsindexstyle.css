@@ -186,7 +186,7 @@ body {
   }
 
   .bkgrndImg {
-    background-image: url("../images/whitepattern.jpg");
+    background-image: url("../Images/HomepageBkgrnd.jpg");
     background-color: rgb(124, 124, 124);
     background-attachment: fixed;
     height: 100%;
