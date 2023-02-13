@@ -1,3 +1,3 @@
 # ChDangPortfolio
 
-https://christinedang.github.io/Bootstrap-Portfolio/
+https://christinedang.github.io/ChDangPortfolio/
