@@ -76,7 +76,7 @@
 #mission {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #statement {
@@ -106,7 +106,7 @@ h2 {
 
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .profilepic {
@@ -135,6 +135,7 @@ html {
 #aboutme {
     background-color: rgba(245, 245, 245, 0.75);
     padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .florida {
