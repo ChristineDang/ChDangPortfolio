@@ -73,18 +73,6 @@
     box-shadow: 5px 5px #88888839;
 }
 
-#mission {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-}
-
-#statement {
-    padding-top: 10%;
-    padding-bottom: 10%;
-
-}
-
 .topnav {
     background: white;
     position: absolute right;
@@ -178,11 +166,6 @@ html {
     align-items: right;
 }
 
-/* @media screen and (min-width:100px) {
-    #lottie1 {
-        width: 50%;
-    }
-} */
 
 
 .card{
@@ -245,34 +228,65 @@ a {
    padding-left: 20%;
 }
 
-#webApps {
-    background-image: url(../Images/cardImgs/WebAppsCardImg.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 350px;
-}
 
-#cases {
-    background-image: url(../Images/cardImgs/UxuiCasesCardImg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 350px;
-}
+@media screen and (min-width:100px) {
+    #lottie1 {
+        min-width: 10%;
+    }
+    #statement {
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
+        /* min-height: 10%; */
+        min-width: 50%;
+    }
 
-#process {
-    background-image: url(../Images/cardImgs/UxuiStepsCardImg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 350px;
-}
-
-#illustrationCard {
-    background-image: url(../Images/cardImgs/IllustrationsCardImg.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 350px;
+    #mission {
+        /* text-align: center; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+    
+    #webApps {
+        background-image: url(../Images/cardImgs/WebAppsCardImg.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* min-height: 10%; */
+        min-width: 5%;
+        min-height: 325px;
+    }
+    
+    #cases {
+        background-image: url(../Images/cardImgs/UxuiCasesCardImg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* min-height: 10%; */
+        min-width: 5%;
+        min-height: 325px;
+        max-height: 250px;
+    }
+    
+    #process {
+        background-image: url(../Images/cardImgs/UxuiStepsCardImg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* min-height: 10%; */
+        min-width: 5%;
+        min-height: 325px;
+        max-height: 250px;
+    }
+    
+    #illustrationCard {
+        background-image: url(../Images/cardImgs/IllustrationsCardImg.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* min-height: 350px; */
+        /* min-height: 10%; */
+        min-width: 5%;
+        min-height: 325px;
+    }
+    
 }
