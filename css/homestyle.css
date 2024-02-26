@@ -20,7 +20,9 @@
 
 .banner {
     /* background-image: url('../Images/HomepageBkgrnd3.jpg'); */
-    background-image: url('../Images/cover8.png');
+    /* background-image: url('../Images/cover8.png'); */
+    background-image: url('../Images/PortfolioBannerHome1.png');
+    /* min-height: 700px; */
     min-height: 700px;
     background-attachment: fixed; 
     background-position: center;
