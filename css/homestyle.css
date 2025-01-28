@@ -1,6 +1,6 @@
 /* @media screen and (max-device-height: 0px) { */
     html body {
-        background-image: url("../Images/HomepageBkgrnd.jpg");
+        /* background-image: url("../Images/HomepageBkgrnd.jpg"); */
         background-color: rgb(249, 249, 249);
         background-attachment: fixed;
         height: 100%;

@@ -50,7 +50,9 @@ function openPage(pageName,elmnt,color) {
     elmnt.style.backgroundColor = color;
   }
   
-
+  function myFunction() {
+    window.location.href = "./html/illustrations.html";
+  }
 
 
 

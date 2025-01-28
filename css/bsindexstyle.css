@@ -215,3 +215,29 @@ body {
   img {
     pointer-events: none;
 }
+
+.col-md-12 {
+    position: relative; /* Allow absolute positioning within */
+  }
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Adjust the value to control the roundness */
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .button2 {background-color: #008CBA;} /* Blue */
+
+  button:hover {
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
