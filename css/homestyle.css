@@ -191,6 +191,16 @@ html {
     height:auto;
 }
 
+#TTTImage {
+    width: 140%;
+    background-size: cover;
+    background-position: center;
+}
+
+#Philosophy {
+    padding-left: 15%;
+    text-align: center;
+}
 /* carousel */
 /* .carousel-inner {
     display: flex;
@@ -256,6 +266,7 @@ a {
 @media screen and (min-width:100px) {
     #lottie1 {
         min-width: 10%;
+        padding-left: 15%;
     }
     #statement {
         /* padding-top: 10%;
@@ -267,7 +278,7 @@ a {
     #mission {
         /* text-align: center; */
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 16px;
+        font-size: 18px;
         padding-left: 40px;
         justify-content: center;
         align-items: center;
@@ -291,9 +302,9 @@ a {
         background-repeat: no-repeat;
         background-position: center center;
         /* min-height: 10%; */
-        min-width: 5%;
-        min-height: 325px;
-        max-height: 250px;
+        /* min-width: 5%; */
+        /* min-height: 325px;
+        max-height: 250px; */
     }
     
     #process {
@@ -302,9 +313,9 @@ a {
         background-repeat: no-repeat;
         background-position: center center;
         /* min-height: 10%; */
-        min-width: 5%;
+        /* min-width: 5%;
         min-height: 325px;
-        max-height: 250px;
+        max-height: 250px; */
     }
     
     #illustrationCard {
@@ -314,8 +325,8 @@ a {
         background-position: center center;
         /* min-height: 350px; */
         /* min-height: 10%; */
-        min-width: 5%;
-        min-height: 325px;
+        /* min-width: 5%;
+        min-height: 325px; */
     }
 
 
